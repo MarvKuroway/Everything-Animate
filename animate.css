@@ -1,0 +1,45 @@
+#rotate {
+	transform: rotate(45deg);
+}
+
+#skew {
+	transform: skew(20deg);
+
+}
+
+#all {
+
+ transform: rotate(120deg);
+ transform: skew(50deg);
+}
+
+#matrix {
+	border: 2px solid #000;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+  transform:matrix(0.586,0.8,-0.8,0.586,40,40);
+  background-color: teal;
+}
+
+
+
+@keyframes{
+0%{transform:rotate(36deg);}
+    10%{transform: rotate(72deg);}
+    20%{transform: rotate(108deg);}
+    30%{transform: rotate(144deg);}
+    40%{transform: rotate(170deg);}
+    50%{transform: rotate(206deg);}
+    60%{transform: rotate(242deg);}
+    70%{transform: rotate(278deg);}
+    80%{transform: rotate(314deg);}
+    90%{transform: rotate(340deg);}
+    100%{transform: rotate(360deg);}
+}
+
+
+
+
+
